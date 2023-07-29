@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Food website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="Design.css">
+</head>
+<body>
+
+<header>
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>LunchTime</a>
+<nav class="navbar">
+    <a class="active" href="#home">home</a>
+    <a href="#dishes">Dishes</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#review">Review</a>
+    <a href="#order">Order</a>
+    <a href="#donation">Donation</a>
+
+</nav>  
+<div class="icons">
+    <i class="fas fa-bars" id="menu-bars"></i>
+    <i class="fas fa-search" id="search-icon"></i>
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-shopping-cart"></a>
+</div>
+</header>  
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+/*--------------------------------------------------------------------------------*/
+<section class="home" id="home">
+<div class="swiper mySwiper home-slider">
+<div class="swiper-wrapper">
+
+<div class="swiper-slide slide">
+    <div class="content">
+        <span>Our Special Dish</span>
+        <h3>Special Meals</h3>
+        <p>Take Satisfied lunch time.Rice with 4-type of gravy and 3-type of sidedish and pickle and 1-plate</p>
+        <a href="#" class="btn">Order-Now</a>
+    </div>
+    <div class="image">
+        <img src="dish3.jpg" alt="">
+    </div>
+    </div>
+
+<div class="swiper-slide slide">
+    <div class="content">
+        <span>Our Special Dish</span>
+        <h3>Tomato Rice</h3>
+        <p>Take Satisfied lunch time.Tomato Rice with 3-type of sidedish and pickle and 1-plate</p>
+        <a href="#" class="btn">Order-Now</a>
+    </div>
+    <div class="image">
+        <img src="tomato.jpg" alt="">
+    </div>
+    </div>
+
+<div class="swiper-slide slide">
+    <div class="content">
+        <span>Our Special Dish</span>
+        <h3>Lemon Rice</h3>
+        <p>Take Satisfied lunch time.Lemon Rice with 3-type of sidedish and pickle and 1-plate</p>
+        <a href="#" class="btn">Order-Now</a>
+    </div>
+    <div class="image">
+        <img src="lemon.jpg" alt="">
+    </div> 
+    </div>
+
+<div class="swiper-slide slide">
+    <div class="content">
+    <span>Our Special Dish</span>
+    <h3 class="prod_name">White Brinji</h3>
+    <p>Take Satisfied lunch time.White Brinji with 3-type of sidedish and pickle and 1-plate</p>
+    <a href="#" class="btn">Order-Now</a>
+    </div>
+    <div class="image">
+        <img src="brinji.jpg" alt="">
+    </div> 
+    </div>
+    
+</div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</div>
+</section>
+/*-------------------------------------------------------------------------------*/
+<section class="dishes" id="dishes">
+<h3 class="sub-heading">Our SideDishes</h3>
+<h3 class="heading">Popular SideDishes</h3>
+<div class="box-container">
+
+<div class="box">
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-eye"></a>
+<img src="side1.jpg" alt="">
+<h3 class="prod_name">Chikken Gravy</h3>
+<div class="stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half-alt"></i>
+</div>
+<span>Rs.35.00</span>
+<a href="#" class="btn">add to cart</a>
+</div>
+
+<div class="box">
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-eye"></a>
+    <img src="fishfry.jpg" alt="">
+    <h3 class="prod_name">Fish Fry</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <span>Rs.30.00</span>
+    <a href="#" class="btn">add to cart</a>
+    </div>
+
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="muttunleg.jpg" alt="">
+        <h3 class="prod_name">MuttunLeg Gravy</h3>
+        <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rs.70.00</span>
+        <a href="#" class="btn">add to cart</a>
+        </div>   
+
+<div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="chikkenlollipop.jpg" alt="">
+            <h3 class="prod_name">Chikken Lollypop</h3>
+            <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs.30.00</span>
+            <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="beefgravy.jpg" alt="">
+                <h3 class="prod_name">Beef Gravy</h3>
+                <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>Rs.30.00</span>
+                <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="prawn.jpg" alt="">
+                    <h3 class="prod_name">Prawn Gravy</h3>
+                    <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>Rs.30.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                    </div>
+</div>
+</section>
+
+<section class="about" id="about">
+    <h3 class="sub-heading">about us</h3>
+    <h1 class="heading">Why Choose Us?</h1>
+    <div class="row">
+        <div class="image">
+        <img src="cook2.jpg" alt="">
+        </div>
+        
+    <div class="content">
+        <h3>Best Food in our country</h3>
+        <p>Lunch time holtel A restaurant is a business that prepares and serves food and drinks to customers.[1] Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services. Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast-food restaurants and cafeterias to mid-priced family restaurants, to high-priced luxury establishments.</p>
+        
+        <p>The earliest modern-format "restaurants" to use that word in Paris were the establishments which served bouillon, a broth made of meat and egg which was said to restore health and vigour. The first restaurant of this kind was opened in 1765 or 1766 by Mathurin Roze de Chantoiseau on rue des Poulies, now part of the Rue de Louvre.[20] The name of the owner is sometimes given as Boulanger.[21] Unlike earlier eating places, it was elegantly decorated, and besides meat broth offered a menu of several other "restorative" dishes, including macaroni. Chantoiseau and other chefs took the title "traiteurs-restaurateurs".[21] While not the first establishment where one could order food, or even soups, it is thought to be the first to offer a menu of available choices.[22]
+
+            In the Western world, the concept of a restaurant as a public venue where waiting staff serve patrons food from a fixed menu is a relatively recent one, dating from the late 18th century.[23] Modern restaurant culture originated in France during the 1780s.</p>
+           
+        <div class="icon-container">
+            <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <span>Free Delivery</span>
+            </div>
+            <div class="icons">
+                <i class="fas fa-dollar-sign"></i>
+                <span>Easy Payment</span>
+            </div>
+            <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>24/7 Service</span>
+            </div>
+        </div>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+      </div>  
+</section>
+
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading"> Our menu </h3>
+    <h1 class="heading"> Today's Speciality </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="dish3.jpg" alt="">
+                <a href="#" class="fas fa-heart"> </a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3>Full Veg-Meals</h3>
+                <p>Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and hihgly pleasant to the taste. You wouldn't call delicious that what is tasteless or unpleasant.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">Rs.50</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="muttunleg.jpg" alt="">
+                <a href="#" class="fas fa-heart"> </a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3>MuttunLeg Gravy</h3>
+                <p>Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and hihgly pleasant to the taste. You wouldn't call delicious that what is tasteless or unpleasant.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">Rs.50</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="prawn.jpg" alt="">
+                <a href="#" class="fas fa-heart"> </a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3>Prawn-Gravy</h3>
+                <p>Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and hihgly pleasant to the taste. You wouldn't call delicious that what is tasteless or unpleasant.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">Rs.50</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="chikkenlollipop.jpg" alt="">
+                <a href="#" class="fas fa-heart"> </a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3>LOLLIPOP</h3>
+                <p>Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and hihgly pleasant to the taste. You wouldn't call delicious that what is tasteless or unpleasant.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">Rs.30</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="nonvegmeals.jpg" alt="">
+                <a href="#" class="fas fa-heart"> </a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3>Non-veg Full-Meals</h3>
+                <p>Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and hihgly pleasant to the taste. You wouldn't call delicious that what is tasteless or unpleasant.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">Rs.200</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="dish3.jpg" alt="">
+                <a href="#" class="fas fa-heart"> </a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3>Delicious Food</h3>
+                <p>Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and hihgly pleasant to the taste. You wouldn't call delicious that what is tasteless or unpleasant.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">Rs.50</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="merinaSundari.jpg" alt="">
+                <a href="#" class="fas fa-heart"> </a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3>Sundari Akka Kadai</h3>
+                <p>Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and hihgly pleasant to the taste. You wouldn't call delicious that what is tasteless or unpleasant.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">Rs.100</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="Kasimedu.jpg" alt="">
+                <a href="#" class="fas fa-heart"> </a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3>Kasimedu Special</h3>
+                <p>Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and hihgly pleasant to the taste. You wouldn't call delicious that what is tasteless or unpleasant.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">Rs.50</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="kasimedu2.jpg" alt="">
+                <a href="#" class="fas fa-heart"> </a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3>Kasimedu special</h3>
+                <p>Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and hihgly pleasant to the taste. You wouldn't call delicious that what is tasteless or unpleasant.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">Rs.50</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="Pattinampakkam.jpg" alt="">
+                <a href="#" class="fas fa-heart"> </a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3>Pattinampakkam Special</h3>
+                <p>Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and hihgly pleasant to the taste. You wouldn't call delicious that what is tasteless or unpleasant.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">Rs.50</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="TnagarSaroja.jpg" alt="">
+                <a href="#" class="fas fa-heart"> </a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+                <h3>T-nagar Special</h3>
+                <p>Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and hihgly pleasant to the taste. You wouldn't call delicious that what is tasteless or unpleasant.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">Rs.50</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="review" id="review">
+    <h3 class="sub-heading"> Customer's Review </h3>
+    <h1 class="heading"> What They Say </h1>
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="person2.webp" alt="">
+                    <div class="user-info">
+                        <h3>Jhon deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p>We thoroughly enjoyed our food which was excellent. Without exception the service was impeccable. Would love to go there again and again. Keep it up.</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="person3.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Jhon deo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <p>We thoroughly enjoyed our food which was excellent. Without exception the service was impeccable. Would love to go there again and again. Keep it up.</p>
+                    </div>
+            </div>   
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="person4.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Jhon deo</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <p>We thoroughly enjoyed our food which was excellent. Without exception the service was impeccable. Would love to go there again and again. Keep it up.</p>
+                        </div>
+                    </div>    
+                        <div class="swiper-slide slide">
+                            <i class="fas fa-quote-right"></i>
+                            <div class="user">
+                                <img src="person5.avif" alt="">
+                                <div class="user-info">
+                                    <h3>Jhon deo</h3>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                                <p>We thoroughly enjoyed our food which was excellent. Without exception the service was impeccable. Would love to go there again and again. Keep it up.</p>
+                            </div>
+                        </div>    
+                            <div class="swiper-slide slide">
+                                <i class="fas fa-quote-right"></i>
+                                <div class="user">
+                                    <img src="person6.jpg" alt="">
+                                    <div class="user-info">
+                                        <h3>Jhon deo</h3>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                    <p>We thoroughly enjoyed our food which was excellent. Without exception the service was impeccable. Would love to go there again and again. Keep it up.</p>
+                                </div>
+                            </div>    
+                                <div class="swiper-slide slide">
+                                    <i class="fas fa-quote-right"></i>
+                                    <div class="user">
+                                        <img src="person7.jpg" alt="">
+                                        <div class="user-info">
+                                            <h3>Jhon deo</h3>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                        </div>
+                                        <p>We thoroughly enjoyed our food which was excellent. Without exception the service was impeccable. Would love to go there again and again. Keep it up.</p>
+                                    </div>
+                                </div>    
+                                    <div class="swiper-slide slide">
+                                        <i class="fas fa-quote-right"></i>
+                                        <div class="user">
+                                            <img src="person8.jpg" alt="">
+                                            <div class="user-info">
+                                                <h3>Jhon deo</h3>
+                                                <div class="stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                </div>
+                                            </div>
+                                            <p>We thoroughly enjoyed our food which was excellent. Without exception the service was impeccable. Would love to go there again and again. Keep it up.</p>
+                                        </div>
+                                    </div>    
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="order" id="order">
+    <h3 class="sub-heading"> Order Now </h3>
+    <h1 class="heading"> Free and Faster </h1>
+    <form action="">
+        <div class="inputBox">
+            <div class="input">
+                <span>Your Name</span>
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="input">
+                <span>Your Number</span>
+                <input type="number" placeholder="enter Mobile-number">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Your Order</span>
+                <input type="text" placeholder="enter Food name">
+            </div>
+            <div class="input">
+                <span>Additional Food</span>
+                <input type="text" placeholder="extra with Food">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>How Much</span>
+                <input type="number" placeholder="How many orders">
+            </div>
+            <div class="input">
+                <span>Date and Time</span>
+                <input type="datetime-local" >
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Your Address</span>
+                <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>Your Message</span>
+                <textarea name="" placeholder="enter your Message" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <input type="submit" value="Order-Now" class="btn">
+    </form>
+
+</section>
+
+
+
+
+<section class="donation" id="donation">
+    <h3 class="sub-heading"> Donate Now </h3>
+    <h1 class="heading"> Orphanage and Old Age Home </h1>
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="atheeswarar.avif" alt="">
+                    <div class="user-info">
+                        <h3>HelpUs!!!</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p>"Support the vulnerable and make a difference in their lives. Join us in our mission to bring hope and happiness to orphanages and old age homes. Your contribution can create a brighter future for those in need. Together, let's spread love and care to those who deserve it most."</p>
+                    <a href="#" class="btn">Donate</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="anaikkum-karangal.avif" alt="">
+                    <div class="user-info">
+                        <h3>HelpUs!!!</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p>"Support the vulnerable and make a difference in their lives. Join us in our mission to bring hope and happiness to orphanages and old age homes. Your contribution can create a brighter future for those in need. Together, let's spread love and care to those who deserve it most."</p>
+                    <a href="#" class="btn">Donate</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="hope.jpg" alt="">
+                    <div class="user-info">
+                        <h3>HelpUs!!!</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p>"Support the vulnerable and make a difference in their lives. Join us in our mission to bring hope and happiness to orphanages and old age homes. Your contribution can create a brighter future for those in need. Together, let's spread love and care to those who deserve it most."</p>
+                    <a href="#" class="btn">Donate</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="annai-trust.jpg" alt="">
+                    <div class="user-info">
+                        <h3>HelpUs!!!</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p>"Support the vulnerable and make a difference in their lives. Join us in our mission to bring hope and happiness to orphanages and old age homes. Your contribution can create a brighter future for those in need. Together, let's spread love and care to those who deserve it most."</p>
+                    <a href="#" class="btn">Donate</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="atheeswarar.avif" alt="">
+                    <div class="user-info">
+                        <h3>HelpUs!!!</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p>"Support the vulnerable and make a difference in their lives. Join us in our mission to bring hope and happiness to orphanages and old age homes. Your contribution can create a brighter future for those in need. Together, let's spread love and care to those who deserve it most."</p>
+                    <a href="#" class="btn">Donate</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="kangaroo-karunai.jpg" alt="">
+                    <div class="user-info">
+                        <h3>HelpUs!!!</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p>"Support the vulnerable and make a difference in their lives. Join us in our mission to bring hope and happiness to orphanages and old age homes. Your contribution can create a brighter future for those in need. Together, let's spread love and care to those who deserve it most."</p>
+                    <a href="#" class="btn">Donate</a>
+                </div>
+            </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="simlar.jpg" alt="">
+                        <div class="user-info">
+                            <h3>HelpUs!!!</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <p>"Support the vulnerable and make a difference in their lives. Join us in our mission to bring hope and happiness to orphanages and old age homes. Your contribution can create a brighter future for those in need. Together, let's spread love and care to those who deserve it most."</p>
+                        <a href="#" class="btn">Donate</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+            
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
