@@ -1,6 +1,6 @@
 # lunch-time-app
 
-Introducing LunchTime: Your Ultimate Food Delivery and Donation App!!
+Introducing LunchTime: My Ultimate Food Delivery and Donation App!!
 LunchTime is a revolutionary food delivery app that brings convenience, variety, and compassion together in one platform. Similar to popular apps like Swiggy, our mission is to provide users with access to a wide range of dining options, including both licensed hotels and mini hotels/mess services. Moreover, we've taken an extra step towards making a positive impact on society by facilitating food donations to hostels and orphanages.
 Key Features:
 Diverse Dining Options: With LunchTime, users can explore an extensive selection of licensed hotels and unlicensed mini hotels/mess services. Whether you're craving traditional delicacies or want to try out lesser-known local cuisines, we've got it all covered.
